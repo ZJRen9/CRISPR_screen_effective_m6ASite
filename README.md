@@ -8,13 +8,6 @@ STEP2 PAM sequence design
     python sgRNA_design.py
     
 
-
-
-
-
-
-
-
 sgRNA analysis pipeline
 =====
 
@@ -47,5 +40,12 @@ STEP3 MAGeCK test
 STEP4 medium log2-foldchange count and min counts cutoff
 ---
     python medium_log2foldchange.py --mageck_test_sgrna_summary_result H1_ABE_m6A_modify_change.sgrna_summary.txt --mageck_count_normalized_result H1_ABE_m6A_modify.count_normalized.txt --min_depth 200 --output_file H1_ABE_m6A_modify_change.sgrna_summary_with_medium_lfc.txt
+
+STEP5 sgRNA induced mutations predict
+---
+1.
+-
+2.
+-
   
 
