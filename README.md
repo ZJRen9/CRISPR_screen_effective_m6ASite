@@ -2,7 +2,7 @@ sgRNA design
 =====
 STEP1 sequence abstract for sgRNA design
 ---
-    sequence around single base m6A site abstract by `bedtools getfasta`
+    sequence around single base m6A site abstract by bedtools getfasta
 STEP2 PAM sequence design
 ---
     python sgRNA_design.py
@@ -43,11 +43,8 @@ STEP4 medium log2-foldchange count and min counts cutoff
 
 STEP5 sgRNA induced mutations predict
 ---
-(1)
--
-    sgRNA induced mutations predict by VEP (Ensembl Variant Effect Predictor)
-(2)
--
+    (1): sgRNA induced mutations predict by VEP (Ensembl Variant Effect Predictor)
+    (2): 
     
   
 
