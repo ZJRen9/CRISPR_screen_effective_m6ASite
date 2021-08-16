@@ -6,7 +6,7 @@ PAM["NGG"] = ['AGG', 'TGG', 'CGG', 'GGG']
 Base_editor = {}
 Base_editor["BE3-Cas9"] = ['NGG', 4, 8, 20]
 
-file = 'hg19_m6A_sequence_-30-+30.txt'
+file = 'hg19_m6A_around_30bp_seuqence.txt'
 seq_file = open(file, 'r')
 count = len(open(file, 'r').readlines())
 header = ['m6A_site', 'chromsome', 'start', 'end', 'strand', 'sequence']
