@@ -1,3 +1,16 @@
+sgRNA design
+=====
+STEP1 sequence abstract for sgRNA design
+---
+    sequence around single base m6A site abstract by bedtools getfasta
+STEP2 PAM sequence design
+---
+    
+
+
+
+
+
 sgRNA analysis pipeline
 =====
 
