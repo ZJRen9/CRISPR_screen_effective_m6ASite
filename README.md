@@ -43,9 +43,11 @@ STEP4 medium log2-foldchange count and min counts cutoff
 
 STEP5 sgRNA induced mutations predict
 ---
-1.
+(1)
 -
-2.
+    sgRNA induced mutations predict by VEP (Ensembl Variant Effect Predictor)
+(2)
 -
+    
   
 
