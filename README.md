@@ -1,4 +1,5 @@
-# sgRNA analysis pipeline
+sgRNA analysis pipeline
+===
 # STEP1 constant sequences of flanking sgRNA sequences
 '''
 ##cutadapt -j 6 -q 10 -g GGACGAAACACCG -o CXCR4_minus_Rep1_end.fastq CXCR4_minus_Rep1.fastq\n
