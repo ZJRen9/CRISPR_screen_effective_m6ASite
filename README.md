@@ -31,6 +31,6 @@ SETP3 MAGeCK test
 
 SETP4 medium log2-foldchange count and min counts cutoff
 ---
-    pass
+    python medium_log2foldchange.py --mageck_test_sgrna_summary_result H1_ABE_m6A_modify_change.sgrna_summary.txt --mageck_count_normalized_result H1_ABE_m6A_modify.count_normalized.txt --min_depth 200 --output_file zzz.txt
   
 
