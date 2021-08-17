@@ -44,7 +44,10 @@ STEP4 medium log2-foldchange count and min counts cutoff
 STEP5 sgRNA induced mutations predict
 ---
     (1): sgRNA induced mutations predict by VEP (Ensembl Variant Effect Predictor)
-    (2): 
-    
+    (2): python sgRNA_resulted_varient_annotation_select.py --VEP_result_file ABE_mutation_predict.txt --sgRNA_varient_file H1_ABE_modify_annotation_select.txt --mageck_result_file  H1_ABE_m6A_modify_change.sgrna_summary_with_medium_lfc.txt --output_file H1_ABE_m6A_modify_change.sgrna_summary_with_varient_annotation.txt
+
+STEP6 define change sgRNA between CXCR4+ and CXCR4-
+---
+    python change_sgRNA_annotation.py H1_ABE_m6A_modify_change.sgrna_summary_with_varient_annotation.txt >> H1_ABE_m6A_modify_change.sgrna_summary_with_change_sgRNA_define.txt
   
 
