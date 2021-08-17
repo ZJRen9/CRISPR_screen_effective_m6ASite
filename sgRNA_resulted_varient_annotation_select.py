@@ -47,7 +47,7 @@ def annotation_select_file_read(filename,sense_dict,varient_type_dict):
 		chrom = list_x[2]
 		start = list_x[3]
 		end = list_x[4]
-		#geneid = list_x[7]
+		geneid = list_x[7]
 		#transid = list_x[8]
 		#print(geneid,transid)
 		sitename = ";".join([chrom,end])
@@ -55,7 +55,7 @@ def annotation_select_file_read(filename,sense_dict,varient_type_dict):
 			sense_annotation = "NA"
 		else:
 			sense_annotation_list = sense_dict[sitename]
-			if sense_annotation_list == []:
+			if sense_annotation_list == [] or geneid == "NA":
 				sense_annotation = "NA"
 			else:
 				sense_annotation = sense_annotation_select_by_transid(sense_annotation_list,varient_type_dict)
