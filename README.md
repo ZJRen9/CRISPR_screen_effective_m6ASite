@@ -52,8 +52,8 @@ STEP6 define change sgRNA between CXCR4+ and CXCR4-
 
 Contact
 ---
-Zhijun Ren renzhj@mail2.sysu.edu.cn
-Jinkai Wang wangjk@mail.sysu.edu.cn
+Zhijun Ren renzhj@mail2.sysu.edu.cn \\
+Jinkai Wang wangjk@mail.sysu.edu.cn \\
     
   
 
