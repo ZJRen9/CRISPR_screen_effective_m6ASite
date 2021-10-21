@@ -49,5 +49,10 @@ STEP5 sgRNA induced mutations predict
 STEP6 define change sgRNA between CXCR4+ and CXCR4-
 ---
     python change_sgRNA_annotation.py H1_ABE_m6A_modify_change.sgrna_summary_with_varient_annotation.txt >> H1_ABE_m6A_modify_change.sgrna_summary_with_change_sgRNA_define.txt
+
+cite
+---
+    Parallel functional assessment of m6A sites in human endodermal differentiation with base editor screens
+    
   
 
