@@ -50,9 +50,10 @@ STEP6 define change sgRNA between CXCR4+ and CXCR4-
 ---
     python change_sgRNA_annotation.py H1_ABE_m6A_modify_change.sgrna_summary_with_varient_annotation.txt >> H1_ABE_m6A_modify_change.sgrna_summary_with_change_sgRNA_define.txt
 
-cite
+Contact
 ---
-    Parallel functional assessment of m6A sites in human endodermal differentiation with base editor screens
+Zhijun Ren renzhj@mail2.sysu.edu.cn
+Jinkai Wang wangjk@mail.sysu.edu.cn
     
   
 
