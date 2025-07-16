@@ -54,18 +54,16 @@ N6-methyladenosine (m6A) plays important role in lineage specifications of embry
 ```
     python change_sgRNA_annotation.py H1_ABE_m6A_modify_change.sgrna_summary_with_varient_annotation.txt >> H1_ABE_m6A_modify_change.sgrna_summary_with_change_sgRNA_define.txt
 ```
-### Citing m6A-isoSC-seq
+### Citing
 ```
-If you use m6A-isoSC-seq in your research, please cite:
+If you use code in your research, please cite:
 "Cheng W, Liu F, Ren Z, Chen W, Chen Y, Liu T, Ma Y, Cao N, Wang J. Parallel functional assessment of m6A sites in human endodermal differentiation with base editor screens. Nat Commun. 2022 Jan 25;13(1):478. doi: 10.1038/s41467-022-28106-0. PMID: 35078991; PMCID: PMC8789821.".
 ```
 ### Contributor
-```
 This package is developed and maintaned by Jinkai Wang and Zhijun Ren. If you want to contribute, please leave an issue or submit a pull request. We appreciate contributions on bug fixes and potential new features. Thank you !
-```
+
 
 ### License
-```
 m6Aiso is licensed under the terms of the MIT license.
-```
+
 
