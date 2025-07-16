@@ -1,5 +1,5 @@
 # sgRNA design
-
+![alt text](./data/m6Ascreen.png)
 Parallel functional assessment of m6A sites in human endodermal differentiation with base editor screens
 
 ## STEP1 sequence abstract for sgRNA design
